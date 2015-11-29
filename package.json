@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/mdocter/xrm-examples/issues"
   },
-  "homepage": "https://github.com/mdocter/xrm-examples#readme"
+  "homepage": "https://github.com/mdocter/xrm-examples#readme",
+  "devDependencies": {
+    "webpack": "^1.12.9"
+  }
 }
