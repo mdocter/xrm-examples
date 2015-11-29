@@ -2,7 +2,12 @@
   "name": "xrm-examples",
   "version": "1.0.0",
   "description": "Some XRM/Dynamics CRM 2015 examples.",
-  "main": "index.js",
+  "author": "Maarten Docter (@mdocter)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mdocter/xrm-examples/issues"
+  },
+  "homepage": "https://github.com/mdocter/xrm-examples#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,12 +23,6 @@
     "babeljs",
     "es6"
   ],
-  "author": "Maarten Docter (@mdocter)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mdocter/xrm-examples/issues"
-  },
-  "homepage": "https://github.com/mdocter/xrm-examples#readme",
   "devDependencies": {
     "webpack": "^1.12.9"
   }
