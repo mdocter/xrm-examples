@@ -10,7 +10,8 @@
   "homepage": "https://github.com/mdocter/xrm-examples#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "example_1": "webpack --config ./example_1/webpack.config.js --display-error-details"
+    "example_1": "webpack --config ./example_1/webpack.config.js --display-error-details",
+    "example_2": "webpack --config ./example_2/webpack.config.js --display-error-details"
   },
   "repository": {
     "type": "git",
