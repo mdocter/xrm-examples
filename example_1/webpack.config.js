@@ -67,10 +67,10 @@ module.exports = {
   module: {
 
     loaders: [
-      // all files with a `.ts` or `.tsx` extension will be handled by loader 'awesome-typescript-loader' (https://github.com/s-panferov/awesome-typescript-loader)
+      // all files with a `.ts` or `.tsx` extension will be handled by loader 'ts-loader' (https://github.com/TypeStrong/ts-loader)
       {
         test: /\.tsx?$/,
-        loader: 'awesome-typescript-loader'
+        loader: 'ts-loader'
       }
     ]
   }
