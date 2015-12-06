@@ -7,11 +7,6 @@
     "noImplicitAny": true,
     "declaration": true
   },
-  "awesomeTypescriptLoaderOptions": {
-    /*
-      See: https://github.com/s-panferov/awesome-typescript-loader
-    */
-  },
   "exclude": [
     "node_modules",
     "typings"
