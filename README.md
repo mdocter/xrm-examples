@@ -19,8 +19,9 @@ XRM / Dynamics CRM Example Code Repo
 - run `npm run example_1` from the root folder to build. The build output can be found in the `dist\example_1` folder.
 
   **Example output:**
-  * mdocter.account.js
-  * mdocter.contact.js
+  * mdocter.account.js and mdocter.account.js.map (=sourcemap)
+  * mdocter.contact.js and mdocter.contact.js.map (=sourcemap)
+  * NB. *.js files are minified with Webpacks [Uglify Js plugin](https://webpack.github.io/docs/list-of-plugins.html#uglifyjsplugin).
 
   **Usage example on the Account form:**
   - Add the build output *.js files as JavaScript web resources to some solution;
@@ -36,8 +37,9 @@ XRM / Dynamics CRM Example Code Repo
 - run `npm run example_2` from the root folder to build. The build output can be found in the `dist\example_2` folder.
 
   **Example output:**
-  * mdocter.form.js
-  * mdocter.ribbon.js
+  * mdocter.form.js and mdocter.form.js.map (=sourcemap)
+  * mdocter.ribbon.js and mdocter.ribbon.js.map (=sourcemap)
+  * NB. *.js files are minified with Webpacks [Uglify Js plugin](https://webpack.github.io/docs/list-of-plugins.html#uglifyjsplugin).
 
   **Usage example on the Account form:**
   - Add the build output *.js files as JavaScript web resources to some solution;
