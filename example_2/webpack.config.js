@@ -3,6 +3,7 @@
 // See https://webpack.github.io/docs/configuration.html for all options
 
 var path = require('path');
+var webpack = require('webpack');
 
 module.exports = {
 
@@ -63,6 +64,11 @@ module.exports = {
 
   // Source maps support (or 'inline-source-map' also works)
   devtool: 'source-map',
+
+  // Add minification
+  plugins: [
+    new webpack.optimize.UglifyJsPlugin()
+  ],
 
   module: {
 
